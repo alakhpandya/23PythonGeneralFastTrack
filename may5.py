@@ -21,13 +21,12 @@ print(" " + "-" * 100)
 print("|" + "Welcome to our program!".center(100) + "|")
 print(" " + "-" * 100)
 """
-
 # a = s1.count("e")
 # print(a)
 
 # print(s1.count("me"))
 """
-s1.index("e")
+s1.index("me")
 print(s1.index("e", 4))
 
 a = s1.index("e", 4)
