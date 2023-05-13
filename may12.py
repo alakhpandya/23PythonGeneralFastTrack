@@ -90,5 +90,6 @@ n1 = [12, 34, 54, 99.8, -23.45, 100000000, 34, -10.55, -89, 34, 75, 34]
 # n1.reverse()
 # print(n1)
 
-n1.sort()
-print(n1)
+# n1.sort(reverse=True)
+# n1.reverse()
+# print(n1)
