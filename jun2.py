@@ -63,11 +63,11 @@ Strokes         Score
 
 PAR: 10
 Strokes         Score
-1               Hole in One
-2 to 7          Eagle
-8 or 9          Birdy
-10              PAR
-11 or 12        Bogey
-13              Double Bogey
->13             Go Home
+1               Hole in One     strokes = 1
+2 to 7          Eagle           strokes are between 1 and par-2
+8 or 9          Birdy           strokes = par - 1 or strokes = par -2
+10              PAR             strokes = par
+11 or 12        Bogey           strokes = par + 1 or strokes = par + 2
+13              Double Bogey    strokes = par + 3
+>13             Go Home         strokes are more than par + 3
 """
