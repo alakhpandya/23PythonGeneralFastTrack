@@ -157,4 +157,3 @@ Ask user for their salary and years of service and print the final salary.
 10. Ask an integer n from user. Print the following sequence seperated by comma (,) up to n. Make sure your code doesn't print comma after the last number.
 	1, 3, 7, 13, 21, 31, 43
 """
-
