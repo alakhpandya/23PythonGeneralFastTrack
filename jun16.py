@@ -41,7 +41,7 @@ while i < len(terms)-1:
     i += 1
 print(terms[i])
 """
-
+"""
 a = int(input("a: "))
 b = int(input("b: "))
 
@@ -57,3 +57,4 @@ while num <= b:
         print(num)
 
     num += 1
+"""
