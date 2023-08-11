@@ -43,13 +43,53 @@ s2.printDetails()
 class Father():
     profession = "Business"
 
-class Son(Father):
+class Child1(Father):
+    vehicle = "Car"
+    profession = "CA"
+
+c1 = Child1()
+print(c1.profession)
+
+class GrandChild(Child1):
+    profession = "Software Developer"
+
+class Mother():
+    hobby = "Swimming"
+    profession = "Doctor"
+
+class Class1(Father, Mother):
     pass
 
+class Class2(Mother, Father):
+    pass
+
+# class Class3(Class1, Class2):
+#     pass
+    
+"""
 f1 = Father()
 print(f1.profession)
 
-s1 = Son()
-print(s1.profession)
+c1 = Child1()
+c1.profession = "Doctor"
+print(c1.profession)
+
+gc1 = GrandChild()
+print(gc1.profession)
+
+print(gc1.vehicle)
+"""
+
+# cl1 = Class1()
+# print(cl1.profession)
+# print(cl1.hobby)
+
+# cl2 = Class2()
+# print(cl2.profession)
+# print(cl2.hobby)
+
+# cl3 = Class3()
+# print(cl3.profession)
+
 
 # Next Class: Hierarchical, Multi level & Multiple inheritance and further
