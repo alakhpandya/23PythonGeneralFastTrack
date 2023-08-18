@@ -18,11 +18,14 @@ class Car():
         
     @staticmethod
     def get_sr_no():
+        if not Car.stock:
+            print("There is no car in the stock at present!")
+            return False
         print("---------Cars in stock----------")
         print("Sr.No.\tModel Name")
         for car in Car.stock:
             print(f"{Car.stock.index(car)}\t{car.name}")
-        c = int(input("Sr no: "))
+        c = int(input("Sr no: ")) + 1
         return c
 
     @staticmethod

@@ -6,18 +6,18 @@ from van import Van
 from premiumHatchback import PremiumHatchBack
 from atv import ATV
 
-h1 = HatchBack("Alto", "CNG", 300000)
-sv1 = SUV("Ertiga", "Diesel", 1200000)
-sd1 = Sedan("Ciaz", "Petrol", 1000000)
-v1 = Van("Eeco", "CNG", 300000)
-p1 = PremiumHatchBack("Baleno", "Petrol", 800000)
-a1 = ATV("Gipsy", "Petrol", 500000)
+# h1 = HatchBack("Alto", "CNG", 300000)
+# sv1 = SUV("Ertiga", "Diesel", 1200000)
+# sd1 = Sedan("Ciaz", "Petrol", 1000000)
+# v1 = Van("Eeco", "CNG", 300000)
+# p1 = PremiumHatchBack("Baleno", "Petrol", 800000)
+# a1 = ATV("Gipsy", "Petrol", 500000)
 
 # sd1.printDetails()
 # sv1.change_seating_capacity(6)
 # SUV.change_seating_capacity(6)
 # sv1.printDetails()
-sv2 = SUV("Breeza", "Diesel", 1000000)
+# sv2 = SUV("Breeza", "Diesel", 1000000)
 # sv2.printDetails()
 
 while True:
@@ -49,10 +49,10 @@ while True:
         }
         create_new_car[car_type]()
 
-
     elif ch == 2:
         c = Car.get_sr_no()
-        Car.stock[c].printDetails()
+        if c:
+            Car.stock[c - 1].printDetails()
         print()
     
     elif ch == 3:
